@@ -31,3 +31,22 @@ The project uses body measurement charts rather than individual garment measurem
 
 ---
 
+How to Run
+1. Clone the repository
+git clone https://github.com/rabjyot12/hm-levi-size-comparison.git
+2. Open the project
+cd hm-levi-size-comparison
+3. Create a virtual environment
+
+Windows:
+
+python -m venv .venv
+
+Activate it:
+
+.venv\Scripts\activate
+4. Install the required packages
+pip install -r requirements.txt
+5. Run the analysis
+python src/data_analysis.py
+
