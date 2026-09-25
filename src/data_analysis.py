@@ -790,8 +790,10 @@ def compare_brands(measurement):
 
 
 
+'''
 chest_measurement = float(
     input("Enter your chest measurement in cm: ")
 )
 
 compare_brands(chest_measurement)
+'''
