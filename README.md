@@ -1,5 +1,7 @@
 # H&M vs Levi's Size Comparison
 
+## Live streamlit deployed link: https://rabjyot12-hm-levi-size-comparison-app-jb7jyz.streamlit.app/
+
 A data analysis project that compares men's clothing size charts from H&M and Levi's using their published body measurement guides.
 
 The project analyzes differences between the two brands and includes a simple size-matching tool based on a user's body measurement.
