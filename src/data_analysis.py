@@ -1,13 +1,20 @@
 import pandas as pd
+from pathlib import Path
 
-hm_tops = pd.read_csv("D:\\Projects\\hm-levi-size-comparison\\data\\hm_tops.csv")
+# Find the main project folder
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Location of the data folder
+DATA_DIR = BASE_DIR / "data"
+
+hm_tops = pd.read_csv(DATA_DIR / "hm_tops.csv")
 #print(hm_tops)
 #print(hm_tops.shape)
 #print(hm_tops.info())
-hm_bottoms = pd.read_csv("D:\\Projects\\hm-levi-size-comparison\\data\\hm_bottoms.csv")
+levis_tops = pd.read_csv(DATA_DIR / "levis_tops.csv")
 
-levis_tops = pd.read_csv("D:\\Projects\\hm-levi-size-comparison\\data\\levis_tops.csv")
-levis_bottoms = pd.read_csv("D:\\Projects\\hm-levi-size-comparison\\data\\levis_bottoms.csv")
+hm_bottoms = pd.read_csv(DATA_DIR / "hm_bottoms.csv")
+levis_bottoms = pd.read_csv(DATA_DIR / "levis_bottoms.csv")
 
 '''print("H&M Tops:", hm_tops.shape)
 print("Levi's Tops:", levis_tops.shape)
